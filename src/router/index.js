@@ -20,7 +20,6 @@ import BlogDetail from "@/views/BlogDetail.vue";
 import Checkout from "@/views/Checkout.vue";
 import OrderComplete from "@/views/OrderComplete.vue";
 import Search from "@/views/Search.vue";
-import AdminDashboard from "@/admin/views/AdminDashboard.vue";
 
 const routes = [
     {
@@ -183,13 +182,8 @@ const routes = [
             title: "Tìm kiếm - Vegist"
         }
     },
-    {
-        path: "/admin",
-        name: "AdminDashboard",
-        component: AdminDashboard
-    }
-];
 
+];
 
 
 const router = createRouter({
